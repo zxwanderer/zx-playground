@@ -1,0 +1,23 @@
+{
+  "name": "zx-playground",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "author": "",
+  "license": "GNU3",
+  "staticFiles": [
+    { "staticPath": "jsspeccy", "staticOutPath": "jsspeccy" }
+  ],
+  "scripts": {
+    "start": "rm -rf dist && parcel --port 1234 --hmr-port 44489",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/bundler-library": "^2.13.3",
+    "parcel": "latest",
+    "parcel-reporter-static-files-copy": "^1.5.3"
+  }
+}

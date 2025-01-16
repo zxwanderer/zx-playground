@@ -4,3 +4,4 @@ git-set-remotes.sh
 .cache
 dist
 node_modules
+.parcel-cache
