@@ -9,11 +9,6 @@
   "author": "",
   "license": "GNU3",
   "scripts": {
-    "start": "rm -rf dist && parcel --port 1234 --hmr-port 44489",
-    "build": "parcel build"
-  },
-  "devDependencies": {
-    "@parcel/bundler-library": "^2.13.3",
-    "parcel": "latest"
+    "start": "rm -rf dist && parcel --port 1234 --hmr-port 44489"
   }
 }

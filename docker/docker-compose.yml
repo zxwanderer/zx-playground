@@ -6,7 +6,7 @@ services:
       - "44489:44489"
     volumes:
       - ../app:/app
-    command: sh -c "npm install --verbose && npm run start"
-    # command: tail -f /dev/null
+    # command: sh -c "npm install --verbose && npm run start"
+    command: tail -f /dev/null
     # command: parcel index.html --hmr-port 44489
     
