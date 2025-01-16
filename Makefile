@@ -5,3 +5,6 @@ docker-up: docker-build
 
 docker-build:
 	docker compose --file ${DOCKER_COMPOSE_FILE} build
+
+web:
+	python3 -m http.server 8000 -d ./app/dist
