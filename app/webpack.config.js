@@ -2,6 +2,7 @@ const path = require('path');
 
 const TerserPlugin = require("terser-webpack-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   optimization: {
@@ -14,6 +15,11 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   plugins: [
+    new CopyWebpackPlugin({
+      patterns: [
+          { from: 'static' }
+      ]
+    }),
     new HtmlWebpackPlugin({
       template: "index.html"
     })
