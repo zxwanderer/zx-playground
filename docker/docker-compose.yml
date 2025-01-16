@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    ports:
+      - "1234:1234"
+      - "44489:44489"
+    volumes:
+      - ../src:/app
+    # command: tail -f /dev/null
+    command: parcel index.html --hmr-port 44489
