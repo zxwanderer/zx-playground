@@ -1,7 +1,14 @@
+const { init } = require('./init')
+const { initModuleStruct, assembleToSnapshot } = require('./assembler.js')
+
 console.log('Hello World from console')
 
+const Z80_SOURCE = require('./code.asm')
 
-const onLoad = () => {
-  let emu = JSSpeccy(document.getElementById('jsspeccy'), {zoom: 2, sandbox: false, tapeAutoLoadMode: 'usr0'})
-}
-window.addEventListener('load', () => onLoad()) 
+// const onLoad = () => {
+    // init()
+    // Module.onRuntimeInitialized()
+    // console.log(Module)
+// }
+
+// document.addEventListener('DOMContentLoaded', () => onLoad()) 
