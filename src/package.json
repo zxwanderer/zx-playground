@@ -6,6 +6,14 @@
   "author": "",
   "license": "GNU3",
   "dependencies": {
-    "layout-architect": "^3.0.2"
+    "@codemirror/commands": "^6.8.0",
+    "@codemirror/lang-markdown": "^6.3.2",
+    "@codemirror/language": "^6.10.8",
+    "@codemirror/state": "^6.5.1",
+    "@codemirror/view": "^6.36.2",
+    "codemirror": "^6.0.1"
+  },
+  "devDependencies": {
+    "marked": "^15.0.6"
   }
 }
