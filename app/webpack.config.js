@@ -6,7 +6,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   module: {
-    rules: [{ test: /\.txt$/, use: 'raw-loader' }],
+    rules: [{ test: /\.asm$/, use: 'raw-loader' }],
   },
   optimization: {
     minimize: true,
