@@ -7,7 +7,7 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
-  mode: 'production', // Режим разработки
+  mode: 'development', // Режим разработки
   devtool: 'inline-source-map', // Карты исходников для дебага
   devServer: { // Настройки devServer для HMR
     static: [
