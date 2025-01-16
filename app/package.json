@@ -14,7 +14,6 @@
   },
   "devDependencies": {
     "@parcel/bundler-library": "^2.13.3",
-    "parcel": "latest",
-    "parcel-reporter-static-files-copy": "^1.5.3"
+    "parcel": "latest"
   }
 }

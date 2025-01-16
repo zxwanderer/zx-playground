@@ -1,5 +1,4 @@
 {
   "extends": "@parcel/config-default",
-  "bundler": "@parcel/bundler-library",
-  "reporters":  ["...", "parcel-reporter-static-files-copy"]
+  "bundler": "@parcel/bundler-library"
 }
