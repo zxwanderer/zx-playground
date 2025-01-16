@@ -3,3 +3,4 @@ git-set-local.sh
 git-set-remotes.sh
 .cache
 dist
+node_modules

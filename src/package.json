@@ -1,8 +1,11 @@
 {
-  "name": "zx playground",
+  "name": "zx-playground",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "author": "",
-  "license": "GNU3"
+  "license": "GNU3",
+  "dependencies": {
+    "layout-architect": "^3.0.2"
+  }
 }
