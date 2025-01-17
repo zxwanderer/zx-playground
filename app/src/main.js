@@ -17,4 +17,11 @@ document.addEventListener("ModuleReady", function(event) { // (1)
   emu.onReady(() => {
     emu.loadSnapshotFromStruct(result.snapshot);
   });
+
+  const editor = ace.edit("source");
+  editor.setTheme("ace/theme/twilight");
+  editor.setShowPrintMargin(false);
+  editor.setFontSize(16);
+  editor.session.setValue(Z80_SOURCE);
+  editor.focus();
 });
